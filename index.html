@@ -2,12 +2,28 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <title>Tweeter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Balthazar" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <div id="container">
+        <h1 id="title">Tweeter</h1>
+        <input type="text" placeholder="What's on your mind?" id="input">
+        <div id="post" onclick="post()">Twit</div>
+        <div id="posts"></div>
+    </div>
 
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
     <script src="logic.js"></script>
+    <script src="render.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
