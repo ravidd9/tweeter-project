@@ -47,21 +47,19 @@ body{
     margin: 10px;
     border-radius: 5px;
     padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
 }
 
 #post:active{
     background-color: #2980b9
 }
 
-.post{
-    font-weight: bold;
-    font-size: 30px;
-}
-
 .comment{
     font-weight: normal;
     font-size: 25px;
-    margin: 10px;
+    margin: 2px;
     margin-left: 30px;
     align-content: center;
 }
@@ -83,4 +81,24 @@ i{
 .delete-comment{
     cursor: pointer;
     color: #e74c3c;
+}
+
+.comInput{
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.comButton{
+    font-size: 20px;
+}
+.postDel{
+    background-color: red;
+    color: white;
+    margin-left: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
 }
